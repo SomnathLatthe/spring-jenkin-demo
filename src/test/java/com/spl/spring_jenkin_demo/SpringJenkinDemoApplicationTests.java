@@ -13,9 +13,8 @@ class SpringJenkinDemoApplicationTests {
 	private static final Logger logger = LoggerFactory.getLogger(SpringJenkinDemoApplication.class);
 
 	@Test
-	public contextLoads() {
+	void contextLoads() {
 		logger.info("Test case executing...");
-		logger.info("Test case executing 2nd log just...");
 		assertTrue(true, "The condition should be true");
 	}
 
