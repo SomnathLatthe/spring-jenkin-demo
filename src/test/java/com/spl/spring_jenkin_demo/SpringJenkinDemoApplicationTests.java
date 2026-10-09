@@ -15,7 +15,7 @@ class SpringJenkinDemoApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test case executing...");
-		logger.info("Test case executing 2nd log again...");
+		logger.info("Test case executing 2nd log just...");
 		assertTrue(true, "The condition should be true");
 	}
 
