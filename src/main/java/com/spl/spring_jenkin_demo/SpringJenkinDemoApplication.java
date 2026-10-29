@@ -13,7 +13,7 @@ public class SpringJenkinDemoApplication {
 	private static final Logger logger = LoggerFactory.getLogger(SpringJenkinDemoApplication.class);
 
 	@PostConstruct
-	public void intt(){
+	public void demoTest(){
 		logger.info("Application started...");
 	}
 
