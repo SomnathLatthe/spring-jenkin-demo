@@ -20,7 +20,6 @@ public class SpringJenkinDemoApplication {
 	public static void main(String[] args) {
 
 		logger.info("Application executed...");
-		logger.info("executed log check...");
 		SpringApplication.run(SpringJenkinDemoApplication.class, args);
 	}
 
